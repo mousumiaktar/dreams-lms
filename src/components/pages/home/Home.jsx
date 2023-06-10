@@ -5,6 +5,7 @@ import Features from "./Features";
 import HeroArea from "./HeroArea";
 import Instructor from "./Instructors";
 import TrendingCourses from "./TrendingCourses";
+import Trusted from "./TrustedCompanies";
 
 const Home = () => {
     return (
@@ -16,6 +17,7 @@ const Home = () => {
             <Career />
             <TrendingCourses />
             <Instructor />
+            <Trusted />
         </div>
     );
 };
