@@ -1,3 +1,4 @@
+import Career from "./Career";
 import FavoriteCourse from "./FavoriteCourse";
 import FeaturedCourse from "./FeaturedCourse";
 import Features from "./Features";
@@ -10,6 +11,7 @@ const Home = () => {
             <Features />
             <FavoriteCourse />
             <FeaturedCourse />
+            <Career />
         </div>
     );
 };
