@@ -3,6 +3,7 @@ import FavoriteCourse from "./FavoriteCourse";
 import FeaturedCourse from "./FeaturedCourse";
 import Features from "./Features";
 import HeroArea from "./HeroArea";
+import Instructor from "./Instructors";
 import TrendingCourses from "./TrendingCourses";
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
             <FeaturedCourse />
             <Career />
             <TrendingCourses />
+            <Instructor />
         </div>
     );
 };
