@@ -7,7 +7,7 @@ const Navbar = () => {
   const [submenuOpen, setSubmenuOpen] = useState(false);
   return (
     <nav className="z-[11] sticky top-0 p-2 bg-gradient-to-r from-secondary to-accent md:bg-gradient-to-l md:from-secondary md:to-accent ">
-      <div className="max-w-[1440px] mx-auto p-1 relative">
+      <div className="max-w-[1440px] mx-auto p-1 relative mt-5">
         <div className="md:flex md:justify-between md:items-center ">
           {/* first part */}
           <div className="flex items-center">
