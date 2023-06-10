@@ -11,7 +11,7 @@ const HeroArea = () => {
                     <p className="mb-8 text-sm md:text-[20px] text-secondary-focus font-medium">
                         The Leader in Online Learning
                     </p>
-                        <h1 className="text-5xl font-bold leading-normal text-black">Engaging & Accessible Online Courses For All</h1>
+                    <h1 className="text-5xl font-bold leading-normal text-black">Engaging & Accessible Online Courses For All</h1>
                     <p className="mt-8 text-sm md:text-[20px] text-secondary-focus font-medium">
                         Own your future learning new skills online
                     </p>

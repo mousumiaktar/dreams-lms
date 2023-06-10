@@ -1,3 +1,4 @@
+import FavoriteCourse from "./FavoriteCourse";
 import Features from "./Features";
 import HeroArea from "./HeroArea";
 
@@ -6,6 +7,7 @@ const Home = () => {
         <div>
             <HeroArea />
             <Features />
+            <FavoriteCourse />
         </div>
     );
 };
