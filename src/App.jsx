@@ -1,4 +1,5 @@
 import Home from "./components/pages/home/Home"
+import Footer from "./components/shared/Footer"
 import Navbar from "./components/shared/Navbar"
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
       <Navbar />
       <Home />
+      <Footer />
     </>
   )
 }
