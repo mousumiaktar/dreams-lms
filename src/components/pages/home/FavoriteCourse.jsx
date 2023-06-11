@@ -14,8 +14,8 @@ const FavoriteCourse = () => {
                         <p className="text-secondary-focus font-medium mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue elementum et neque. Suspendisse imperdiet.</p>
                     </div>
                     <div>
-                        <button className="transition-all delay-100 duration-300 font-semibold border-2  border-primary-focus hover:text-white hover:bg-primary hover:border-primary px-8 py-1.5 rounded-full mt-4 md:mt-0">
-                           Categories
+                        <button className="mt-3 whitespace-nowrap transition-all delay-100 duration-300 font-semibold border-2 border-primary-focus hover:text-white hover:bg-primary-focus  px-6 py-3 rounded-full">
+                           All Categories
                         </button>
                     </div>
                 </div>
