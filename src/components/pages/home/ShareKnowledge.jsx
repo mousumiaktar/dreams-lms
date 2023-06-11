@@ -14,7 +14,7 @@ const ShareYourKnowledge = () => {
                         />
                     </div>
                     {/* right */}
-                    <div className="">
+                    <div className="text-black">
                         <h1 className="text-2xl lg:text-4xl font-bold">
                             Want to share your knowledge?
                         </h1>

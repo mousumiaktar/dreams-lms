@@ -9,7 +9,7 @@ const LatesBlogs = () => {
       <div className=" max-w-[1440px] mx-auto p-3 ">
         {/* first part */}
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold mb-8">Latest Blogs</h2>
+          <h2 className="text-4xl font-bold mb-8 text-black">Latest Blogs</h2>
           <p className="text-xl">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean
             accumsan bibendum
@@ -172,6 +172,163 @@ const LatesBlogs = () => {
               </div>
             </SwiperSlide>
           </Swiper>
+        </div>
+        {/* third part */}
+        <div className="mt-28">
+          <div className="grid grid-cols-1 md:grid-cols-3  space-y-5 bg-gradient-to-r from-success to-info p-10 shadow-xl mt-8 rounded-3xl">
+            {/* item 1 */}
+            <div className="flex items-center">
+              <div className="bg-white me-3 rounded-xl p-2">
+                <img
+                  src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-07.svg"
+                  alt="students-enrolled"
+                />
+              </div>
+              <div>
+                <div className="text-xl lg:text-4xl  font-bold">253,085</div>
+                <div className="text-sm lg:text-lg mt-3">STUDENTS ENROLLED</div>
+              </div>
+            </div>
+            {/* item 2 */}
+            <div className="flex items-center">
+              <div className="bg-white me-3 rounded-xl p-2">
+                <img
+                  src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-08.svg"
+                  alt="total-courses"
+                />
+              </div>
+              <div>
+                <div className="text-xl lg:text-4xl font-bold">1,205</div>
+                <div className="text-sm lg:text-lg mt-3">TOTAL COURSES</div>
+              </div>
+            </div>
+            {/* item 3 */}
+            <div className="flex items-center">
+              <div className="bg-white me-3 rounded-xl p-2">
+                <img
+                  src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-09.svg"
+                  alt="countries"
+                />
+              </div>
+              <div>
+                <div className="text-xl lg:text-4xl font-bold">127</div>
+                <div className="text-sm lg:text-lg mt-3">COUNTRIES</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* fourth part */}
+        <div className="">
+          {/* first content */}
+          <div className="text-center mt-24 text-black">
+            <h1 className="text-4xl font-bold">
+              Unlimited access to 360+ courses
+            </h1>
+            <h1 className="text-4xl font-bold"> and 1,600+ hands-on labs</h1>
+          </div>
+          {/* second content */}
+          <div className="cursor-pointer  place-items-center grid grid-cols-4 gap-5 lg:flex lg:justify-center lg:items-center lg:space-x-8 mt-20">
+            {/* item 1 */}
+            <div className="flex">
+              <div className="hover:-translate-y-3 transition-all duration-700 bg-white me-3 rounded-xl p-2">
+                <img
+                  src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-09.svg"
+                  alt="countries"
+                  className="w-14"
+                />
+              </div>
+            </div>
+            {/* item 2 */}
+            <div className="flex">
+              <div className="hover:-translate-y-3 transition-all duration-700 bg-white me-3 rounded-xl p-2">
+                <img
+                  src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-10.svg"
+                  alt="countries"
+                  className="w-14"
+                />
+              </div>
+            </div>
+            {/* item 3 */}
+            <div className="flex">
+              <div className=" hover:-translate-y-3 transition-all duration-700 bg-white me-3 rounded-xl p-2">
+                <img
+                  src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-16.svg"
+                  alt="countries"
+                  className="w-14"
+                />
+              </div>
+            </div>
+            {/* item 4 */}
+            <div className="flex">
+              <div className=" hover:-translate-y-3 transition-all duration-700 bg-white me-3 rounded-xl p-2">
+                <img
+                  src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-12.svg"
+                  alt="countries"
+                  className="w-14"
+                />
+              </div>
+            </div>
+            {/* item 5 */}
+            <div className="flex">
+              <div className=" hover:-translate-y-3 transition-all duration-700 bg-white me-3 rounded-xl p-2">
+                <img
+                  src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-13.svg"
+                  alt="countries"
+                  className="w-14"
+                />
+              </div>
+            </div>
+            {/* item 6 */}
+            <div className="flex">
+              <div className=" hover:-translate-y-3 transition-all duration-700 bg-white me-3 rounded-xl p-2">
+                <img
+                  src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-14.svg"
+                  alt="countries"
+                  className="w-14"
+                />
+              </div>
+            </div>
+            {/* item 7 */}
+            <div className="flex">
+              <div className=" hover:-translate-y-3 transition-all duration-700 bg-white me-3 rounded-xl p-2">
+                <img
+                  src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-15.svg"
+                  alt="countries"
+                  className="w-14"
+                />
+              </div>
+            </div>
+            {/* item 8 */}
+            <div className="flex">
+              <div className=" hover:-translate-y-3 transition-all duration-700 bg-white me-3 rounded-xl p-2">
+                <img
+                  src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-16.svg"
+                  alt="countries"
+                  className="w-14"
+                />
+              </div>
+            </div>
+            {/* item 9 */}
+            <div className="flex">
+              <div className=" hover:-translate-y-3 transition-all duration-700 bg-white me-3 rounded-xl p-2">
+                <img
+                  src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-17.svg"
+                  alt="countries"
+                  className="w-14"
+                />
+              </div>
+            </div>
+            {/* item 10 */}
+            <div className="flex">
+              <div className=" hover:-translate-y-3 transition-all duration-700 bg-white me-3 rounded-xl p-2">
+                <img
+                  src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-18.svg"
+                  alt="countries"
+                  className="w-14"
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

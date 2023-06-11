@@ -16,7 +16,7 @@ const TrendingCourses = () => {
             <h3 className="mt-10 mb-2 text-md text-primary md:text-xl font-bold">
               What’s New
             </h3>
-            <h1 className="mb-2 text-4xl font-bold">TRENDING COURSES</h1>
+            <h1 className="mb-2 text-4xl font-bold text-black">TRENDING COURSES</h1>
             <button className="md:hidden whitespace-nowrap transition-all delay-100 duration-300 font-semibold border-2 border-primary-focus hover:text-white hover:bg-primary-focus  px-3 py-1 rounded-full m-2">
               All Categories
             </button>
