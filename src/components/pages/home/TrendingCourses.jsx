@@ -8,11 +8,11 @@ import "swiper/css/pagination";
 const TrendingCourses = () => {
   return (
     <div className="bg-gradient-to-t from-accent to-secondary md:bg-gradient-to-l md:from-accent md:to-secondary lg:bg-gradient-to-r lg:from-accent lg:to-secondary pt-4">
-      <div className="max-w-[1440px] mx-auto p-3">
+      <div className="max-w-[1440px] mx-auto md:p-3">
         {/* first part  */}
         <div className="flex justify-between items-center">
           {/* left  */}
-          <div className="">
+          <div className="px-2 md:px-0">
             <h3 className="mt-10 mb-2 text-md text-primary md:text-xl font-bold">
               What’s New
             </h3>

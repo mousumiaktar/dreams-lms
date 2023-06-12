@@ -4,10 +4,21 @@ import { IoIosClose } from "react-icons/io";
 import { RiMenu2Fill } from "react-icons/ri";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
+  const [navbar, setNavbar] = useState(false)
   const [submenuOpen, setSubmenuOpen] = useState(false);
+
+  const changeBackground = () => {
+    if (window.scrollY >= 68) {
+      setNavbar(true);
+    } else {
+      setNavbar(false);
+    }
+  };
+  window.addEventListener('scroll', changeBackground);
+
   return (
-    <nav className="z-[11] sticky top-0 p-2 bg-gradient-to-r from-secondary to-accent md:bg-gradient-to-l md:from-secondary md:to-accent ">
-      <div className="max-w-[1440px] mx-auto p-1 relative mt-5">
+    <nav className={navbar ? "z-[11] sticky top-0 p-2 bg-white shadow-lg" : `bg-gradient-to-r from-secondary to-accent md:bg-gradient-to-l md:from-secondary md:to-accent`}>
+      <div className="max-w-[1440px] mx-auto p-1 relative pt-3">
         <div className="md:flex md:justify-between md:items-center ">
           {/* first part */}
           <div className="flex items-center">
@@ -63,11 +74,10 @@ const Navbar = () => {
         </div>
         {/* mobile navbar */}
         <div
-          className={`lg:hidden bg-primary w-[280px] md:w-[260px] h-screen absolute ${
-            open
-              ? "-top-2 -left-2 transition-all duration-700 "
+          className={`lg:hidden bg-primary w-[280px] md:w-[260px] h-screen absolute ${open
+              ? "-top-7 -left-2 transition-all duration-700 "
               : "top-0 -left-full transition-all duration-1000 delay-300"
-          }`}
+            }`}
         >
           <div className="bg-white p-[17px] flex justify-between items-center">
             <span className="cursor-pointer">
@@ -98,11 +108,10 @@ const Navbar = () => {
               </div>
               {/* submenu */}
               <div
-                className={` ${
-                  submenuOpen
+                className={` ${submenuOpen
                     ? "max-h-auto transition-all "
                     : "max-h-0 overflow-hidden"
-                } `}
+                  } `}
                 style={{ background: "#F38681" }}
               >
                 <ul className="space-y-5 p-6">

@@ -3,11 +3,11 @@ import { BsFillStopwatchFill, BsStarFill } from "react-icons/bs";
 const FeaturedCourse = () => {
     return (
         <div className="bg-gradient-to-t from-accent to-secondary md:bg-gradient-to-l md:from-accent md:to-secondary lg:bg-gradient-to-r lg:from-accent lg:to-secondary pt-4 pb-24">
-            <div className="max-w-[1440px] mx-auto p-3">
+            <div className="max-w-[1440px] mx-auto md:p-3">
                 {/* first part  */}
                 <div className="flex justify-between items-center">
                     {/* left  */}
-                    <div className="">
+                    <div className="px-2 md:px-0">
                         <h3 className="mt-10 mb-2 text-md text-primary md:text-xl font-bold">
                             What’s New
                         </h3>
@@ -35,7 +35,7 @@ const FeaturedCourse = () => {
                     {/* courses container */}
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                         {/* courses 1*/}
-                        <div className="max-w-md md:max-w-xs lg:max-w-lg hover:bg-accent-focus hover:text-white hover:transition-all hover:duration-700 mt-14 rounded-xl w-96 bg-base-100 shadow-xl">
+                        <div className="max-w-md md:max-w-xs lg:max-w-lg hover:bg-accent-focus hover:text-white hover:transition-all hover:duration-700 mt-14 rounded-xl w-96 bg-base-100 shadow-xl mx-auto md:mx-0">
                             <figure className="px-4 pt-4 relative">
                                 <img
                                     src="https://dreamslms.dreamguystech.com/html/assets/img/course/course-01.jpg"
@@ -121,7 +121,7 @@ const FeaturedCourse = () => {
                             </div>
                         </div>
                         {/* courses 2*/}
-                        <div className="max-w-md md:max-w-xs lg:max-w-lg hover:bg-accent-focus hover:text-white hover:transition-all hover:duration-700 mt-14 rounded-xl w-96 bg-base-100 shadow-xl">
+                        <div className="max-w-md md:max-w-xs lg:max-w-lg hover:bg-accent-focus hover:text-white hover:transition-all hover:duration-700 mt-14 rounded-xl w-96 bg-base-100 shadow-xl mx-auto md:mx-0">
                             <figure className="px-4 pt-4 relative">
                                 <img
                                     src="https://dreamslms.dreamguystech.com/html/assets/img/course/course-02.jpg"
@@ -207,7 +207,7 @@ const FeaturedCourse = () => {
                             </div>
                         </div>
                         {/* courses 3*/}
-                        <div className="max-w-md md:max-w-xs lg:max-w-lg hover:bg-accent-focus hover:text-white hover:transition-all hover:duration-700 mt-14 rounded-xl w-96 bg-base-100 shadow-xl">
+                        <div className="max-w-md md:max-w-xs lg:max-w-lg hover:bg-accent-focus hover:text-white hover:transition-all hover:duration-700 mt-14 rounded-xl w-96 bg-base-100 shadow-xl mx-auto md:mx-0">
                             <figure className="px-4 pt-4 relative">
                                 <img
                                     src="https://dreamslms.dreamguystech.com/html/assets/img/course/course-03.jpg"
@@ -282,7 +282,7 @@ const FeaturedCourse = () => {
                             </div>
                         </div>
                         {/* courses 4*/}
-                        <div className="max-w-md md:max-w-xs lg:max-w-lg hover:bg-accent-focus hover:text-white hover:transition-all hover:duration-700 mt-14 rounded-xl w-96 bg-base-100 shadow-xl">
+                        <div className="max-w-md md:max-w-xs lg:max-w-lg hover:bg-accent-focus hover:text-white hover:transition-all hover:duration-700 mt-14 rounded-xl w-96 bg-base-100 shadow-xl mx-auto md:mx-0">
                             <figure className="px-4 pt-4 relative">
                                 <img
                                     src="https://dreamslms.dreamguystech.com/html/assets/img/course/course-04.jpg"
@@ -365,7 +365,7 @@ const FeaturedCourse = () => {
                             </div>
                         </div>
                         {/* courses 5*/}
-                        <div className="max-w-md md:max-w-xs lg:max-w-lg hover:bg-accent-focus hover:text-white hover:transition-all hover:duration-700 mt-14 rounded-xl w-96 bg-base-100 shadow-xl">
+                        <div className="max-w-md md:max-w-xs lg:max-w-lg hover:bg-accent-focus hover:text-white hover:transition-all hover:duration-700 mt-14 rounded-xl w-96 bg-base-100 shadow-xl mx-auto md:mx-0">
                             <figure className="px-4 pt-4 relative">
                                 <img
                                     src="https://dreamslms.dreamguystech.com/html/assets/img/course/course-05.jpg"
@@ -448,7 +448,7 @@ const FeaturedCourse = () => {
                             </div>
                         </div>
                         {/* courses 6*/}
-                        <div className="max-w-md md:max-w-xs lg:max-w-lg hover:bg-accent-focus hover:text-white hover:transition-all hover:duration-700 mt-14 rounded-xl w-96 bg-base-100 shadow-xl">
+                        <div className="max-w-md md:max-w-xs lg:max-w-lg hover:bg-accent-focus hover:text-white hover:transition-all hover:duration-700 mt-14 rounded-xl w-96 bg-base-100 shadow-xl mx-auto md:mx-0">
                             <figure className="px-4 pt-4 relative">
                                 <img
                                     src="https://dreamslms.dreamguystech.com/html/assets/img/course/course-06.jpg"

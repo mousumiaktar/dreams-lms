@@ -64,7 +64,7 @@ const HeroArea = () => {
                     </div>
                 </div>
                 {/* right */}
-                <div className="mb-16 mt-20 ">
+                <div className="mb-16 md:mt-20 ">
                     <img
                         src="https://dreamslms.dreamguystech.com/html/assets/img/object.png"
                         alt="banner-image"
