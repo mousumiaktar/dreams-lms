@@ -10,7 +10,7 @@ const FavoriteCourse = () => {
                 <div className="md:flex items-center justify-between mb-20">
                     <div>
                         <h5 className="text-primary font-bold text-xl mt-8">Favourite Course</h5>
-                        <h1 className="text-4xl font-bold mt-5">Top Category</h1>
+                        <h1 className="text-4xl font-bold mt-5 text-black">Top Category</h1>
                         <p className="text-secondary-focus font-medium mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan bibendum gravida maecenas augue elementum et neque. Suspendisse imperdiet.</p>
                     </div>
                     <div>

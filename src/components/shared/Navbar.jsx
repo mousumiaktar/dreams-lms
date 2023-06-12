@@ -75,7 +75,7 @@ const Navbar = () => {
         {/* mobile navbar */}
         <div
           className={`lg:hidden bg-primary w-[280px] md:w-[260px] h-screen absolute ${open
-              ? "-top-7 -left-2 transition-all duration-700 "
+              ? "-top-4 -left-2 transition-all duration-700 "
               : "top-0 -left-full transition-all duration-1000 delay-300"
             }`}
         >
